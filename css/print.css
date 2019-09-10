@@ -1,0 +1,25 @@
+body, html {
+    font-size: 10pt;
+}
+
+.container_12 {
+    background-image: none;
+}
+
+.container_12 h1 {
+    font-weight: bold;
+}
+
+.container_12 h1, .container_12 h2, .container_12 h3 {
+    letter-spacing: .1em;
+    width: 100%;
+}
+
+.container_12 h2, .container_12 h3 {
+    border: .5pt solid black;
+    text-shadow: 1pt 1pt 2pt black, -1pt 1pt 2pt black;
+}
+
+/*.container_12 .awards {*/
+/*    page-break-before: always;*/
+/*}*/

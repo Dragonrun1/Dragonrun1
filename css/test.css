@@ -1,0 +1,11 @@
+.container_16 {
+    background-color: #fff;
+    background-repeat: repeat-y;
+    margin-bottom: 20px;
+}
+
+.container_12 {
+    /*background-image: url(../img/12_col.gif);*/
+    background-origin: content-box;
+}
+

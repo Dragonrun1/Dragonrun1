@@ -1,0 +1,122 @@
+.body {
+    max-width: 960px;
+}
+
+.container_12 .signature {
+    font-family: "Bathilda", "Script", cursive;
+    font-size: 3em;
+}
+
+.container_12 h1 {
+    font-weight: bold;
+}
+
+.container_12 h2, .container_12 h3 {
+    background-color: palegreen;
+    border: 1px solid black;
+    border-radius: .5em;
+    box-shadow: 2px 2px 4px grey;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .125em;
+    padding: 0 0 .125em 0;
+    text-shadow: 1px 1px 2px black, -1px 1px 1px black;
+    width: 100%;
+}
+
+.container_12 .contact p span {
+    display: inline-block;
+    text-align: center;
+}
+
+.container_12 .awards dd, .container_12 .education dd {
+    margin-bottom: .75em;
+}
+
+.container_12 .summary dd {
+    display: inline;
+}
+
+.container_12 .contact h1 a {
+    text-decoration: none;
+}
+
+.container_12 .contact h1 a:hover {
+    text-decoration: underline;
+}
+
+.container_12 .contact h1 {
+    line-height: 1em;
+    margin-bottom: .15em;
+    text-align: left;
+}
+
+.container_12 .contact hr {
+    margin-bottom: .2em;
+}
+
+.container_12 .contact ul li {
+    float: left;
+    margin: 0;
+}
+
+.container_12 .contact ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.container_12 .contact {
+    margin-bottom: 1em;
+}
+
+.container_12 .experience .time_frame, .container_12 .education .time_frame {
+    float: right;
+    text-align: right;
+    width: 200px;
+}
+
+.container_12 .experience dd li, .container_12 .education dd li {
+    margin-left: 1em;
+    margin-top: .25em;
+}
+
+.container_12 .experience dd, .container_12 .awards dd, .container_12 .education dd {
+    clear: both;
+}
+
+.container_12 .experience dl, .container_12 .awards dl {
+    display: inline;
+}
+
+.container_12 .experience dt, .container_12 .awards dt {
+    list-style: none;
+}
+
+.container_12 .references li {
+    float: left;
+    margin-bottom: .5em;
+    margin-left: 1em;
+    /*list-style: disc;*/
+}
+
+li:before {
+    color: black;
+    content: "\25B8";
+    margin-left: -.5em;
+    padding-right: .25em;
+    text-shadow: 1px 1px 4px red;
+}
+
+.container_12 .references li:before {
+    content: "";
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+}

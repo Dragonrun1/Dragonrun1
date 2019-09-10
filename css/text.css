@@ -1,0 +1,87 @@
+@charset "utf-8";
+body, html {
+    font-family: "DejaVu Serif", "Droid Serif", FreeSans, serif;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+pre,
+code {
+    font-family: "DejaVu Sans Mono", "Droid Sans Mono", Consolas, monospace;
+}
+
+hr {
+    border: 0 solid #000000;
+    border-top-width: .25em;
+    clear: both;
+    height: .25em;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    margin: 1em 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+small, .font_small {
+    font-size: 0.8em;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+dl {
+    display: block;
+}
+
+dt {
+    clear: left;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+li:before {
+    text-shadow: 1pt 1pt 4pt red;
+}
+
+p,
+dl,
+hr,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+    margin-bottom: 1em;
+}
